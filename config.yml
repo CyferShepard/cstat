@@ -16,8 +16,6 @@ params:
       description: ""
       category: Nexus Server
     - name: Account Management
-      description: This is the service responsible for serving images, audio, and
-        video. It is reliant on our CDN.
       category: Nexus Server
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
