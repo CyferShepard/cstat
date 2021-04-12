@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Nexus Server Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -135,7 +135,7 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Gateway
-      category: North Coast
+      
     - name: Backup Gateway
       category: East Coast
     - name: API
@@ -204,7 +204,7 @@ params:
   #
   # Default: false
   # BOOLEAN; `true`, `false`
-  useLogo: true
+  useLogo: false
 
   # Where is the logo located, if one is
   # present at all?
