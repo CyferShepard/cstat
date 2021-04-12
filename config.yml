@@ -2,23 +2,23 @@ title: Nexus Server Status
 buildFuture: true
 defaultContentLanguage: en
 languageCode: en
-baseURL: https://nexusserver.co.za
+baseURL: https://gracious-lamport-d8d2a8.netlify.app/
 params:
   disableDarkMode: false
   shortDateFormat: 15:04 — Jan 2
   down: "#e60000"
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: East Coast
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
+    - name: Dashboard
+      category: Nexus Server
+    - name: Jellyfin
+      category: Nexus Server
+    - name: Ombi
+      description: ""
+      category: Nexus Server
+    - name: Account Management
       description: This is the service responsible for serving images, audio, and
         video. It is reliant on our CDN.
-      category: Uncategorized
+      category: Nexus Server
   dateFormat: January 2, 2006 at 3:04 PM
   brand: "#0a0c0f"
   headerTextColor: white
@@ -34,12 +34,7 @@ params:
   disableIncidentHistory: false
   ok: "#008000"
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: East Coast
-    - name: Uncategorized
-      untitled: true
+    - name: Nexus Server
   description: We continuously monitor the status of our services and if there are
     any interruptions, a note will be posted here.
   enableCustomHTML: true
